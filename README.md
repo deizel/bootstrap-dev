@@ -12,7 +12,7 @@ This is a simple JavaScript file using jQuery to show/hide the columns to help f
 1. Extract files to your application's webroot
 2. Include `dest/dev.js` in your HTML file:
 
-    <script src="/js/bootstrap-dev/dest/dev.js"></script>
+        <script src="/js/bootstrap-dev/dest/dev.js"></script>
 
 ## Contributing
 
