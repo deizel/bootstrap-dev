@@ -1,21 +1,23 @@
-# Bootstrap Dev
+# bootstrap-dev
 
 This is a simple JavaScript file using jQuery to show/hide the columns to help fronted development.
 
 ## Requirements
 
-* [Bootstrap 3.x](http://getbootstrap.com/) or higher
-* [jQuery] (http://jquery.com/)
+* [Bootstrap 3.x](http://getbootstrap.com/)
+* [jQuery](http://jquery.com/)
 
-## Project Setup
+## Usage
 
-1. Include **dev-ck.js** into your **HTML** file.
+1. Extract files to your application's webroot
+2. Include `dest/dev.js` in your HTML file:
 
-> <script src="/js/dev.js"></script>
+    <script src="/js/bootstrap-dev/dest/dev.js"></script>
 
-## Project Setup
+## Contributing
 
-The project includes the source file with **less** file and the un-minified **JS**
-## Future plans/Ideas
+1. `npm install -g gulp`
+2. `npm install`
+3. `gulp`
 
-hope to work or if you wish to fork the script in order to allow the different media queries.
+Feel free to fork the project to add support for more media queries.
