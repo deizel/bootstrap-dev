@@ -8,9 +8,9 @@
 		uglify = require('gulp-uglify');
 
 	var paths = {
-		styles:  './source/less/*.less',
-		scripts: './source/*.js',
-		output:  './'
+		styles:  './src/*.less',
+		scripts: './src/*.js',
+		output:  './dest/'
 	};
 
 	gulp.task('styles', function () {
