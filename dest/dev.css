@@ -19,3 +19,21 @@
   background: rgba(2, 48, 89, 0.1);
   border: 1px dotted #3276b1;
 }
+.container .dev-highlight {
+  outline: 1px solid #46B8DA;
+}
+.container .dev-highlight .dev-highlight {
+  outline: 2px solid #46B8DA;
+}
+.container .dev-highlight .dev-highlight .dev-highlight {
+  outline: 3px solid #46B8DA;
+}
+.container .dev-highlight .dev-highlight .dev-highlight .dev-highlight {
+  outline: 4px solid #46B8DA;
+}
+.container .dev-highlight .dev-highlight .dev-highlight .dev-highlight .dev-highlight {
+  outline: 5px solid #46B8DA;
+}
+.container .dev-highlight .dev-highlight .dev-highlight .dev-highlight .dev-highlight .dev-highlight {
+  outline: 6px solid #46B8DA;
+}

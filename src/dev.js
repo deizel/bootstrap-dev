@@ -13,7 +13,17 @@
 		$('head').append('<link rel="stylesheet" href="' + path + 'dev.css" type="text/css" />');
 		$('body').prepend('<div class="container developer"><button type="button" class="toggle btn btn-info btn-xs"><i class="glyphicon glyphicon-th"></i></button><div class="row developer-columns" ><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div></div></div>');
 		$('.toggle').click(function () {
-			$('.developer-columns').toggle();
+			$('.developer-columns').toggle(0, function () {
+				if ($(this).is(':visible')) {
+					$('div[class*="col-lg-"]').each(function () {
+						$(this).addClass('dev-highlight');
+					});
+				} else {
+					$('div.dev-highlight').each(function () {
+						$(this).removeClass('dev-highlight');
+					});
+				}
+			});
 		});
 	});
 
