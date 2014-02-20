@@ -1,6 +1,6 @@
 # bootstrap-dev
 
-This is a simple JavaScript file using jQuery to show/hide the columns to help fronted development.
+This is a simple JavaScript file using jQuery to show/hide the columns to help front-end development.
 
 ## Requirements
 
