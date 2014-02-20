@@ -1,6 +1,10 @@
-$(document).ready(function(){
+/*jslint white: false */
+/*global $: false */
+
+$(document).ready(function () {
+	'use strict';
 	$('body').prepend('<div class="container developer"><button type="button" class="toggle btn btn-info btn-xs">Toggle Grid</button><div class="row developer-columns" ><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div><div class="col-md-1">&nbsp;</div></div></div>');
-	$('.toggle').click(function(){
+	$('.toggle').click(function () {
 		$('.developer-columns').toggle();
 	});
 	$('.container.developer').css({
