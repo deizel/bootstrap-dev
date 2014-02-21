@@ -16,7 +16,7 @@
 
 		var buttonColumns = '<button class="dev-toggle-columns btn btn-primary btn-xs"><i class="glyphicon glyphicon-barcode"></i></button>';
 		var buttonOutline = '<button class="dev-toggle-outline btn btn-info btn-xs"><i class="glyphicon glyphicon-qrcode"></i></button>';
-		var buttons = '<div class="dev-buttons btn-group">' + buttonColumns + buttonOutline + '</div>'
+		var buttons = '<div class="dev-buttons btn-group">' + buttonColumns + buttonOutline + '</div>';
 		$('body').prepend(buttons);
 
 		var columns = '';
