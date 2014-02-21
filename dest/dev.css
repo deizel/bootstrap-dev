@@ -1,39 +1,42 @@
-.container.developer {
-  z-index: 999999;
-  margin-top: 0;
-  padding-top: 0;
-}
-.container.developer button.toggle {
+.dev-buttons {
   position: fixed;
   z-index: 99999;
   bottom: 10px;
   right: -2px;
 }
-.container.developer .row {
+.dev-container {
+  z-index: 999999;
+  margin-top: 0;
+  padding-top: 0 !important;
+}
+.dev-container .row {
   position: fixed;
   width: 1170px;
 }
-.container.developer .row .col-md-1 {
+.dev-container .row .col-md-1:first-of-type {
+  border-left: 1px dotted #3276b1;
+}
+.dev-container .row .col-md-1 {
   width: 8.333333333333332%;
   min-height: 800px;
   background: rgba(2, 48, 89, 0.1);
-  border: 1px dotted #3276b1;
+  border-right: 1px dotted #3276b1;
 }
-.container .dev-highlight {
-  outline: 1px solid #46B8DA;
+.dev-outline {
+  border: 1px solid rgba(200, 100, 100, 0.5);
 }
-.container .dev-highlight .dev-highlight {
-  outline: 2px solid #46B8DA;
+.dev-outline .dev-outline {
+  border: 1px solid rgba(100, 100, 200, 0.5);
 }
-.container .dev-highlight .dev-highlight .dev-highlight {
-  outline: 3px solid #46B8DA;
+.dev-outline .dev-outline .dev-outline {
+  border: 1px solid rgba(100, 200, 100, 0.5);
 }
-.container .dev-highlight .dev-highlight .dev-highlight .dev-highlight {
-  outline: 4px solid #46B8DA;
+.dev-outline .dev-outline .dev-outline .dev-outline {
+  border: 1px solid rgba(200, 100, 100, 0.5);
 }
-.container .dev-highlight .dev-highlight .dev-highlight .dev-highlight .dev-highlight {
-  outline: 5px solid #46B8DA;
+.dev-outline .dev-outline .dev-outline .dev-outline .dev-outline {
+  border: 1px solid rgba(100, 100, 200, 0.5);
 }
-.container .dev-highlight .dev-highlight .dev-highlight .dev-highlight .dev-highlight .dev-highlight {
-  outline: 6px solid #46B8DA;
+.dev-outline .dev-outline .dev-outline .dev-outline .dev-outline .dev-outline {
+  border: 1px solid rgba(100, 200, 100, 0.5);
 }

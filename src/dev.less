@@ -1,40 +1,39 @@
-.container {
-	&.developer {
-		z-index: 999999;
-		margin-top: 0;
-		padding-top: 0;
-		button {
-			&.toggle {
-				position: fixed;
-				z-index: 99999;
-				bottom: 10px;
-				right: -2px;
-			}
+.dev-buttons {
+	position: fixed;
+	z-index: 99999;
+	bottom: 10px;
+	right: -2px;
+}
+.dev-container {
+	z-index: 999999;
+	margin-top: 0;
+	padding-top: 0 !important;
+	.row {
+		position: fixed;
+		width: 1170px;
+		.col-md-1:first-of-type {
+			border-left: 1px dotted #3276b1;
 		}
-		.row {
-			position: fixed;
-			width: 1170px;
-			.col-md-1 {
-				width: 8.333333333333332%;
-				min-height: 800px;
-				background: rgba(2, 48, 89, .1);
-				border: 1px dotted #3276b1;
-			}
+		.col-md-1 {
+			width: 8.333333333333332%;
+			min-height: 800px;
+			background: rgba(2, 48, 89, .1);
+			border-right: 1px dotted #3276b1;
 		}
 	}
-	.dev-highlight {
-		outline: 1px solid #46B8DA;
-		.dev-highlight {
-			outline: 2px solid #46B8DA;
-			.dev-highlight {
-				outline: 3px solid #46B8DA;
-				.dev-highlight {
-					outline: 4px solid #46B8DA;
-					.dev-highlight {
-						outline: 5px solid #46B8DA;
-						.dev-highlight {
-							outline: 6px solid #46B8DA;
-						}
+}
+.dev-outline {
+	border: 1px solid rgba(200, 100, 100, .5);
+	.dev-outline {
+		border: 1px solid rgba(100, 100, 200, .5);
+		.dev-outline {
+			border: 1px solid rgba(100, 200, 100, .5);
+			.dev-outline {
+				border: 1px solid rgba(200, 100, 100, .5);
+				.dev-outline {
+					border: 1px solid rgba(100, 100, 200, .5);
+					.dev-outline {
+						border: 1px solid rgba(100, 200, 100, .5);
 					}
 				}
 			}
